@@ -1,0 +1,24 @@
+.TodoTemplate {
+  width: 512px;
+  // width 가 있음으로 좌우 중앙 정렬이 가능해지는 구나!
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  border-radius: 4px;
+  overflow: hidden;
+  //   border: 1px solid red;
+
+  .app-title {
+    background: #22b8cf;
+    color: white;
+    height: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    background: white;
+  }
+}
